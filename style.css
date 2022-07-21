@@ -1,0 +1,658 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .head {
+        height: 70px;
+        width: 100vw;
+        background-color: #0d244b;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        position: absolute;
+    }
+    
+    .head .header {
+        height: 100%;
+        width: 80vw;
+        color: azure;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 30px;
+    }
+    
+    .fa-university {
+        color: #f1c50e;
+        font-size: 35px;
+    }
+    
+    .University {
+        letter-spacing: 2px;
+    }
+    
+    .fa-bars {
+        cursor: pointer;
+    }
+    
+    .home {
+        height: 100vh;
+        width: 100vw;
+        background-image: url(home.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .homeimage {
+        height: inherit;
+        width: inherit;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    
+    .homeimage,
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .heading {
+        height: 100%;
+        width: 100vw;
+        color: aliceblue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 60px;
+        font-weight: 600;
+    }
+    
+    .homebtnsec {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .homePageBtn {
+        width: 1000px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    /* menuAction css start */
+    
+    .menuAction {
+        height: 90vh;
+        width: 100vw;
+        margin-top: -90vh;
+        margin-left: -100vw;
+        background-color: rgba(0, 0, 0, 0.8);
+        background-size: cover;
+        position: absolute;
+    }
+    
+    .nemuColumn {
+        height: 90vh;
+        width: 40vw;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        /* margin-top: 100px; */
+    }
+    
+    .menuitem {
+        margin-top: 100px;
+    }
+    /* menuAction css enf */
+    
+    .btn {
+        height: 50px;
+        padding: 15px 60px;
+        border-radius: 25px;
+        background-color: #f1c50e;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .our {
+        color: aliceblue;
+        font-size: 30px;
+        margin: 40px auto;
+    }
+    
+    .btn:hover {
+        background-color: aliceblue;
+        transition: 0.5s;
+    }
+    
+    .second {
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .second {
+        padding: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .meddleImg {
+        border-radius: 25px;
+    }
+    
+    .heading2 {
+        font-size: 40px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .left {
+        height: 100%;
+        width: 40vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .rigth {
+        height: 100%;
+        width: 40vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+    
+    .midelLeft {
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .therd {
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    .Ttop {
+        width: 100vw;
+        height: 60vh;
+        background-color: #f1c50e;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .images {
+        width: 80vw;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+    }
+    
+    .Tbottom {
+        width: 100vw;
+        height: 100vh;
+        background-color: #0d244b;
+        /* display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around; */
+    }
+    
+    .cardDiv {
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        padding-top: 180px;
+    }
+    
+    .Ttop .img1 {
+        height: 300px;
+        width: 250px;
+    }
+    
+    .imgtop {
+        margin-top: 15%;
+    }
+    
+    .imgbottom {
+        margin-top: 5%;
+    }
+    
+    .card {
+        height: 400px;
+        width: 300px;
+        display: flex;
+        padding: 20px;
+        align-items: center;
+        /* justify-content: center; */
+        flex-direction: column;
+        background-color: #f5f7fa;
+        border-radius: 25px;
+    }
+    
+    .fa-solid {
+        color: #f1c50e;
+        margin-bottom: 30px;
+    }
+    
+    .cardMeddle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 20px auto;
+    }
+    
+    .card p {
+        font-size: 20px;
+    }
+    
+    .cardheadind {
+        font-size: 25px;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+    
+    .more {
+        /* height: 100%; */
+        /* width: 50px; */
+        margin-top: 20px;
+        font-size: 35px;
+        color: black;
+        border-bottom: 2px solid #f1c50e;
+        cursor: pointer;
+    }
+    
+    .forth {
+        width: 100vw;
+        height: 100vh;
+        margin-top: 65vh;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .forthHeading {
+        font-size: 60px;
+        width: 100vw;
+        height: 100%;
+        font-weight: 600;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .forthimg {
+        height: 500px;
+        width: 500px;
+        border-radius: 20px;
+        margin-right: 30px;
+    }
+    
+    .contener {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .forthRigth {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .rigth {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .forthRigthFont {
+        font-size: 20px;
+        margin: 30px;
+    }
+    
+    .five {
+        width: 100vw;
+        height: 150vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .fiveLeft {
+        width: 50vw;
+        height: 100vh;
+        background-color: white;
+    }
+    
+    .fiveRigth {
+        width: 50vw;
+        height: 100vh;
+        background-color: #0d244b;
+    }
+    
+    .fiveimg {
+        height: 550px;
+        width: 1000px;
+        border-radius: 20px;
+        margin: 30px -500px;
+    }
+    
+    .fiveCard {
+        height: 70vh;
+        width: 40vw;
+        background-color: #f1c50e;
+        border-radius: 25px;
+        margin-left: -30vw;
+        margin-top: -45vh;
+        padding: 50px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: absolute;
+    }
+    
+    .fiveimg2 {
+        height: 400px;
+        width: 300px;
+        margin-top: -40vh;
+        margin-left: 50vw;
+    }
+    
+    .caedContent {
+        font-size: 50px;
+    }
+    
+    .cardconten {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .btnCard {
+        height: 50px;
+        width: 200px;
+        background-color: #0d244b;
+        color: white;
+        text-align: center;
+        border-radius: 30px;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .btnCard:hover {
+        background-color: #f5f7fa;
+        color: #0d244b;
+        transition: 0.6s;
+    }
+    
+    .six {
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    .siximg {
+        width: 80vw;
+        margin-top: 70vh;
+        background-color: #f1c50e;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .siximg1 {
+        height: 100vh;
+        width: 70vw;
+        border-radius: 50px;
+    }
+    
+    .sixBg {
+        height: 60vh;
+        width: 100vw;
+        background-color: #0d244b;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .siximgDiv {
+        /* margin-top: 30vh; */
+        width: 70vw;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        margin: 30vh auto auto auto;
+    }
+    
+    .imgdiv {
+        height: 320px;
+        width: 275px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        border-radius: 20px;
+        box-shadow: 0 0 1px 4px rgb(215, 212, 212);
+    }
+    
+    .siximgtag {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+    
+    .sixPtag {
+        font-size: 25px;
+    }
+    
+    .seven {
+        margin-top: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .contaner {
+        width: 70vw;
+    }
+    
+    .contaner .flexContent {
+        padding: 15px;
+        font-size: 25px;
+        color: #b7b8b3;
+    }
+    
+    .Flexible {
+        font-size: 60px;
+    }
+    
+    .bottomTop {
+        width: 100vw;
+        height: 80vh;
+        margin-top: 200px;
+        background-color: #f1c50e;
+    }
+    
+    .bottomTop {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .botomcard {
+        margin-top: -150px;
+        width: 80vw;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .bottomCard {
+        height: 340px;
+        width: 370px;
+        background-color: #f2f2f2;
+        padding: 35px;
+        border-radius: 20px;
+        color: rgb(150, 141, 141);
+    }
+    
+    .num {
+        font-size: 45px;
+    }
+    
+    .botTagContent {
+        font-size: 20px;
+        line-height: 30px;
+        color: rgb(150, 141, 141);
+    }
+    
+    .bottom {
+        height: 40vh;
+        width: 100vw;
+        background-color: #0d244b;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .need-help {
+        margin-top: -27vh;
+        width: 65vw;
+        height: 55vh;
+        background-color: white;
+        border-radius: 30px;
+        padding: 40px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .need-help .left {
+        width: 400px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px 0;
+    }
+    
+    .need {
+        font-size: 50px;
+        font-weight: 700;
+    }
+    
+    .need-help .left p {
+        font-size: 25px;
+        line-height: 35px;
+        color: rgb(150, 141, 141);
+    }
+    
+    .need-help .rigth {
+        width: 450px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 45px;
+    }
+    
+    .icon {
+        font-size: 30px;
+        margin: 30px 0;
+        cursor: pointer;
+    }
+    
+    .rigthontact .name {
+        height: 50px;
+        width: 450px;
+        border: none;
+        outline: none;
+        background-color: #f2f2f2;
+        border-radius: 10px;
+        font-size: 20px;
+        padding: 10px;
+    }
+    
+    .rigthontact .name:focus {
+        border: 2px solid black;
+    }
+    
+    .rigthontact {
+        display: flex;
+        flex-direction: column;
+        /* font-size: 30px; */
+    }
+    
+    .rigthmiddleontent {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .phone {
+        width: 220px;
+        border: none;
+        outline: none;
+        background-color: #f2f2f2;
+        border-radius: 10px;
+        font-size: 20px;
+        padding: 10px;
+    }
+    
+    .phone:focus {
+        border: 2px solid black;
+    }
+    
+    .requestbtn {
+        width: 450px;
+        height: 50px;
+        background-color: #f1c50e;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        font-size: 15px;
+        letter-spacing: 2px;
+        font-weight: 800;
+        cursor: pointer;
+    }
+    
+    .requestbtn:hover {
+        background-color: #0d244b;
+        color: white;
+    }
+    
+    footer {
+        width: 100vw;
+        height: 20vh;
+        background-color: #333333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer p {
+        color: white;
+    }
